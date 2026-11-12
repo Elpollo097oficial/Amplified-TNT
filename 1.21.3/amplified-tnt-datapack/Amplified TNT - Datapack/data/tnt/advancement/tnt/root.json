@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:tnt",
+            "components": {
+                "minecraft:item_model": "minitnt"
+            },
+            "count": 1
+        },
+        "title": "Amplified TNT",
+        "description": {
+            "text": "What is this?",
+            "color": "red",
+            "bold": true,
+            "italic": true
+        },
+        "background": "textures/item/item1/fon1.png",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "tnt": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "tnt:tnt/minitnt"
+            }
+        }
+    },
+    "rewards": {
+        "experience": 1000
+    },
+    "sends_telemetry_event": true
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+      "191",
+      "181",
+      "191"
+  ],
+  "key": {
+      "1": "minecraft:sand",
+      "8": "minecraft:flint",
+      "9": "minecraft:tnt"
+  },
+  "result": {
+      "id": "minecraft:silverfish_spawn_egg",
+      "components": {
+          "minecraft:item_model": "minitnt",
+          "minecraft:item_name": "\"Amplified TNT\"",
+          "minecraft:entity_data": {
+              "id": "minecraft:silverfish",
+              "HasVisualFire": false,
+              "OnGround": true,
+              "NoGravity": true,
+              "Invulnerable": true,
+              "Silent": true,
+              "Tags": [
+                  "tnt_gn"
+              ],
+              "NoAI": true,
+              "PersistenceRequired": false
+          }
+      },
+      "count": 1
+  },
+  "show_notification": true
+}
