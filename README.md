@@ -10,8 +10,8 @@ Just throw gunpowder on the block. Each time you do this, the number at the top 
 
 ## FEEDBACK
 
-Planet Minecraft
-Discord
+- [PLANET MINECRAFT](https://www.planetminecraft.com/data-pack/amplified-tnt/)
+- [DISCORD](https://discord.gg/7myvHv5g9e)
 
 # ANY BUG SEND EVIDENCE TO THE DISCORD
 
